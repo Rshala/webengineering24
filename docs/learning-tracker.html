@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Learning Tracker</title>
+</head>
+<body>
+    <h1>Daily Learning Tracker</h1>
+    <p>Trage deine täglichen Lernfortschritte ein:</p>
 
+    <!-- Eingabeformular -->
+    <form action="#" method="POST">
+        <label for="date">Datum:</label>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+        <label for="achievement">Lernfortschritt:</label>
+        <input type="text" id="achievement" name="achievement" required>
+        <br><br>
+        <button type="submit">Hinzufügen</button>
+    </form>
+
+    <!-- Tabelle für Fortschritte (manuell befüllt) -->
+    <h2>Deine Fortschritte:</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Datum</th>
+                <th>Lernfortschritt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-11-21</td>
+                <td>HTML gelernt</td>
+            </tr>
+            <tr>
+                <td>2024-11-22</td>
+                <td>CSS-Styling verwendet</td>
+            </tr>
+            <!-- Weitere Einträge können hier manuell hinzugefügt werden -->
+        </tbody>
+    </table>
+</body>
+</html>
